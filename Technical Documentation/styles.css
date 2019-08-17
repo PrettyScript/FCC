@@ -1,0 +1,59 @@
+nav {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+header {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+section {
+  padding-top: 05px;
+}
+@media (max-width: 979px) {
+  section {
+    padding-top: 0px;
+  }
+}
+
+p {
+    margin-right: 65px;
+    margin-left: 65px;
+    font-family: fantasy;
+}
+
+
+.list {
+    margin-left: 70px;
+    font-family: fantasy;
+}
+
+code {
+    margin-left: 80px;
+    background-color: lightgray;
+    color: black;
+/*    padding: 10px;*/
+    
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+
