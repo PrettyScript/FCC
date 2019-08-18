@@ -1,0 +1,63 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+    
+    <title>JavaScript Game</title>
+    
+    <link rel="stylesheet"  href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+   
+   <div>
+        <h2>JavaScript Game</h2>
+
+        <p>How many fingers do I have up?</p>
+        <input type="text" id="guess">
+        <button id="checkGuessNumber">Guess!</button>
+        <p id="results"></p>
+    </div>
+    
+    <footer>Written and coded by: <span>Jessica Delcy</span></footer>
+    
+    <script type="text/javascript">
+        
+        
+        
+        document.getElementById("checkGuessNumber").onclick= function() {
+            
+            var guessEntered = document.getElementById("guess").value;
+
+
+            var random = Math.floor(Math.random() *6);
+
+
+            if (random == guessEntered) {
+
+
+                document.getElementById("results").innerHTML = "You got it!";
+            }
+
+            else {
+                document.getElementById("results").innerHTML = "Nope! It was " + random + " Try Again!";
+            }
+
+
+        }
+    
+    </script>
+    
+</body>
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

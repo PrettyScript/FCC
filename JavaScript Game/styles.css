@@ -1,0 +1,38 @@
+h2 {
+    text-shadow: 2px 2px 5px red;
+    font-family: cursive;
+}
+
+body {
+    background-color: gray;
+   
+}
+
+div {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    border: 3px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    background-color:burlywood;
+    box-shadow: 10px 10px 15px black;
+    
+}
+
+footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+span {
+    font-family: 'Shadows Into Light', cursive;
+}
+
